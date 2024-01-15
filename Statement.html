@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Karcha</title>
+    <style>
+ body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 60%; /* Adjust the table width as needed */
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 15px; /* Adjust padding as needed */
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .qr-code {
+            width: 100px; /* Adjust the width of the QR code */
+            height: 100px; /* Adjust the height of the QR code */
+            margin-left: 10px; /* Adjust margin as needed */
+        }
+		
+		.button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .trip-picture-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+		
+    </style>
+</head>
+<body>
+
+    <h2>Trip Kharcha</h2>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Kharcha</th>
+            <th>QR Code</th>
+        </tr>
+        <tr>
+            <td><a href="aakash.html">Aakash</a></td>
+            <td>638</td>
+            <td><img src="aakash_qr_code.jpg" alt="Aakash QR Code" class="qr-code"></td>
+        </tr>
+        <tr>
+            <td><a href="Aishu.html">Aishu</a></td>
+            <td>1380</td>
+            <td><img src="aishu_qr_code.jpg" alt="Aishu QR Code" class="qr-code"></td>
+        </tr>
+		
+		 <tr>
+            <td><a href="komal.html">Komal</a></td>
+            <td>880</td>
+            <td><img src="komal_qr_code.jpg" alt="Komal QR Code" class="qr-code"></td>
+        </tr>
+		
+		
+		
+		            <td><a href="statement2.html">Next Page</a></td>
+		
+        <!-- Add similar rows for other students -->
+    </table>
+	
+	
+	<div class="button-container">
+        <button class="trip-picture-button" onclick="viewTripPictures()">Trip Pictures</button>
+    </div>
+
+    <script>
+        function viewTripPictures() {
+            // Add your logic to handle the button click, for example, navigate to a new page
+            window.location.href = "https://drive.google.com/drive/folders/1HI0e-S7Qq4Yig1cOCbneb8xL1CK_4ggu?usp=sharing";
+        }
+    </script>
+
+</body>
+</html>
